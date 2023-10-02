@@ -38,6 +38,12 @@ function handlerForm(event) {
           'No photos found for this topic. Try changing your query.',
           { fontSize: '16px' }
         );
+
+        window.scrollTo({
+        top: 0,
+      });
+
+        selectors.inputEl.value = '';
         return;
         }
         
